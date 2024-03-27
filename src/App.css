@@ -45,17 +45,7 @@ code {
 ul {
     padding-inline-start: 20px;
 }
-  
-* {
-    box-sizing: border-box;
-}
-  
-body {
-    font-family: sans-serif;
-    margin: 20px;
-    padding: 0;
-}
-  
+
 .square {
     background: #fff;
     border: 1px solid #999;
@@ -91,4 +81,18 @@ body {
   
 .game-info {
     margin-left: 20px;
+}
+
+.darkmode {
+    color: #eee;
+    background-color: #222;
+}
+
+.darkmode .square {
+    background-color: #333;
+}
+
+.darkmode button {
+    background-color: #777;
+    color: white;
 }
